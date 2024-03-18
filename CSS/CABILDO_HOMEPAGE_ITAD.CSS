@@ -1,0 +1,212 @@
+
+    @font-face {
+    src: url(../fonts/Garet-Book.ttf);
+    font-family: garet;
+    }
+
+    .buttons {
+        font-family: garet;
+        font-size: 15px;
+        letter-spacing: 2px;
+        text-align: right;
+        padding-right: 50px;
+    }
+
+    .hr1 {
+      margin-left: -8px;
+      margin-top: -10px;
+    }
+
+    .contact {
+        font-family: garet;
+        font-size: 9px;
+        letter-spacing: 2px;
+    }
+
+    .icons {
+        margin-top: 50px;
+        margin-left: 700px;
+    }
+
+    .github {
+        margin-top: -29.5px;
+        margin-left: 30px;
+    }
+
+    .ig {
+        margin-top: -29px;
+        margin-left: 60px;
+    }
+
+    .gmail {
+        margin-top: -29px;
+        margin-left: 90px;
+    }
+
+    #whatsapp {
+        width: 25px; 
+        height: auto;
+    }
+
+    #github {
+        width: 25px; 
+        height: auto;
+    }
+
+    #ig {
+        width: 25px; 
+        height: auto;     
+    }
+
+    #gmail {
+        width: 25px; 
+        height: auto;
+    }
+    
+    #logo{  
+        width: 80px;
+        height: auto;
+    }
+
+    #home {
+        text-decoration: none;
+        color: black;
+    }
+
+    #home:hover {
+        border-bottom: 1px solid black;
+        font-size: larger;
+    }
+
+    #aboutme {  
+        margin-left: 20px;
+        margin-top: -150px;
+        text-decoration: none;
+        color: black;
+    }
+
+    #aboutme:hover {
+        border-bottom: 1px solid black;
+        font-size: larger;
+    }
+
+    #skills {
+        margin-left: 20px;
+        margin-top: -150px;
+        text-decoration: none;
+        color: black;
+    }
+
+    #skills:hover {
+        border-bottom: 1px solid black;
+        font-size: larger;
+    }
+
+    #resume {
+        margin-left: 20px;
+        margin-top: -150px;
+        text-decoration: none;
+        color: black;
+    }
+
+    #resume:hover {
+        border-bottom: 1px solid black;
+        font-size: larger;
+    }
+
+    #gallery {
+        margin-left: 20px;
+        margin-top: -150px;
+        text-decoration: none;
+        color: black;
+    }
+
+    #gallery:hover {
+        border-bottom: 1px solid black;
+        font-size: larger;
+    }
+
+    #beat {
+        margin-left: 20px;
+        margin-top: -150px;
+        text-decoration: none;
+        color: black;
+    }
+
+    #beat:hover {
+        border-bottom: 1px solid black;
+        font-size: larger;
+    }
+
+    #film {
+        margin-left: 20px;
+        margin-top: -150px;
+        text-decoration: none;
+        color: black;
+    }
+
+    #film:hover {
+        border-bottom: 1px solid black;
+        font-size: larger;
+    }
+
+    .image img {
+        width: 500px;
+        height: auto;
+        margin-left: 70px;
+        margin-top: 200px;
+    }
+    
+    .images-container {
+        margin-top: 50px;
+    }
+
+    .images1 {
+        width: 250px; 
+        height: auto;
+    }
+
+    #images1 {
+        margin-top: -180px;
+        margin-left: 320px;
+    }
+
+    .images2 {
+        width: 250px; 
+        height: auto;
+    }
+
+    #images2 {
+        margin-top: -350px;
+        margin-left: 320px;
+    }
+
+    .images3 {
+        width: 250px; 
+        height: auto;
+    }
+
+    #images3 {
+        margin-top: -340px;
+        margin-left: 320px;
+    }
+
+    .images4 {
+        width: 200px; 
+        height: auto;
+    }
+
+    #images4 {
+        margin-top: -200px;
+        margin-left: 110px;
+    }
+
+    .images5 {
+        width: 200px; 
+        height: auto;
+    }
+
+    #images5 {
+        margin-top: 5px;
+        margin-left: 110px;
+    }

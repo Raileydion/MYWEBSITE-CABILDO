@@ -1,0 +1,233 @@
+    @font-face {
+    src: url(../fonts/Garet-Book.ttf);
+    font-family: garet;
+    }
+
+    .buttons-container {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .buttons {
+        font-family: garet;
+        font-size: 15px;
+        letter-spacing: 2px;
+        text-align: right;
+        padding-right: 50px;
+    } 
+
+    #home {
+        text-decoration: none;
+        color: black;
+    }
+
+    #home:hover {
+        border-bottom: 1px solid black;
+        font-size: larger;
+    }
+
+    #aboutme {  
+        margin-left: 20px;
+        margin-top: -150px;
+        text-decoration: none;
+        color: black;
+    }
+
+    #aboutme:hover {
+        border-bottom: 1px solid black;
+        font-size: larger;
+    }
+
+    #skills {
+        margin-left: 20px;
+        margin-top: -150px;
+        text-decoration: none;
+        color: black;
+    }
+
+    #skills:hover {
+        border-bottom: 1px solid black;
+        font-size: larger;
+    }
+
+    #resume {
+        margin-left: 20px;
+        margin-top: -150px;
+        text-decoration: none;
+        color: black;
+    }
+
+    #resume:hover {
+        border-bottom: 1px solid black;
+        font-size: larger;
+    }
+
+    #gallery {
+        margin-left: 20px;
+        margin-top: -150px;
+        text-decoration: none;
+        color: black;
+    }
+
+    #gallery:hover {
+        border-bottom: 1px solid black;
+        font-size: larger;
+    }
+
+    #beat {
+        margin-left: 20px;
+        margin-top: -150px;
+        text-decoration: none;
+        color: black;
+    }
+
+    #beat:hover {
+        border-bottom: 1px solid black;
+        font-size: larger;
+    }
+
+    #film {
+        margin-left: 20px;
+        margin-top: -150px;
+        text-decoration: none;
+        color: black;
+    }
+
+    #film:hover {
+        border-bottom: 1px solid black;
+        font-size: larger;
+    }
+
+    #btn1 {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        letter-spacing: 2px;
+        font-size: 40px;
+    }
+
+    #btn1:hover {
+        font-size: 50px;
+        border-bottom: 2px solid black;
+    }
+
+    #btn2 {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        letter-spacing: 2px;
+        font-size: 40px;
+        margin-left: 100px;
+    }
+
+    #btn2:hover {
+        font-size: 50px;
+        border-bottom: 2px solid black;
+    }
+
+    #btn3 {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        letter-spacing: 2px;
+        font-size: 40px;
+        margin-left: 100px;
+    }
+
+    #btn3:hover {
+        font-size: 50px;
+        border-bottom: 2px solid black;
+    }
+
+    .main {
+        margin-top: 200px;
+        margin-bottom: 350px;
+    }
+    .main-content {
+        text-align: center;
+    }
+
+    #childhood-title {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 30px;
+        letter-spacing: 2px;
+        text-align: center;
+        margin-bottom: 0px;
+    }
+
+    #cnt-childhood {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-align: justify;
+        text-indent: 3px;
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+
+    #teenage-title {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 30px;
+        letter-spacing: 2px;
+        text-align: center;
+        margin-bottom: 0px;
+    }
+
+    #cnt-teenage {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-align: justify;
+        text-indent: 3px;
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+
+    #college-title {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 30px;
+        letter-spacing: 2px;
+        text-align: center;
+        margin-bottom: 0px;
+    }
+
+    #cnt-college {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-align: justify;
+        text-indent: 3px;
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+
+    .button1 {
+        font-family: garet;
+        font-size: 20px;
+        text-align: center;
+        text-decoration: none;
+        color: black;
+        margin-bottom: 20px;
+    }
+
+    #button1:hover {
+        font-size: 30px;
+        border-bottom: 2px solid black;
+    }
+
+    .button2 {
+        font-family: garet;
+        font-size: 20px;
+        text-align: center;
+        text-decoration: none;
+        color: black;
+        margin-bottom: 20px;
+    }
+
+    #button2:hover {
+        font-size: 30px;
+        border-bottom: 2px solid black;
+    }
+
+    
+    .button3 {
+        font-family: garet;
+        font-size: 20px;
+        text-align: center;
+        text-decoration: none;
+        color: black;
+        margin-bottom: 20px;
+    }
+
+    #button3:hover {
+        font-size: 30px;
+        border-bottom: 2px solid black;
+    }

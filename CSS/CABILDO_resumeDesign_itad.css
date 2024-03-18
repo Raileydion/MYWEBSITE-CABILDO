@@ -1,0 +1,209 @@
+@font-face {
+    src: url(../fonts/Garet-Book.ttf);
+    font-family: garet;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.header {
+    text-align: center;
+    margin: 50px 50px 50px 50px;
+}
+
+.buttons-container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.buttons {
+    font-family: garet;
+    font-size: 15px;
+    letter-spacing: 2px;
+    text-align: right;
+    padding-right: 50px;
+}  
+
+#home {
+    text-decoration: none;
+    color: black;
+}
+
+#home:hover {
+    border-bottom: 1px solid black;
+    font-size: larger;
+}
+
+#aboutme {  
+    margin-left: 20px;
+    margin-top: -150px;
+    text-decoration: none;
+    color: black;
+}
+
+#aboutme:hover {
+    border-bottom: 1px solid black;
+    font-size: larger;
+}
+
+#skills {
+    margin-left: 20px;
+    margin-top: -150px;
+    text-decoration: none;
+    color: black;
+}
+
+#skills:hover {
+    border-bottom: 1px solid black;
+    font-size: larger;
+}
+
+#resume {
+    margin-left: 20px;
+    margin-top: -150px;
+    text-decoration: none;
+    color: black;
+}
+
+#resume:hover {
+    border-bottom: 1px solid black;
+    font-size: larger;
+}
+
+#gallery {
+    margin-left: 20px;
+    margin-top: -150px;
+    text-decoration: none;
+    color: black;
+}
+
+#gallery:hover {
+    border-bottom: 1px solid black;
+    font-size: larger;
+}
+
+#beat {
+    margin-left: 20px;
+    margin-top: -150px;
+    text-decoration: none;
+    color: black;
+}
+
+#beat:hover {
+    border-bottom: 1px solid black;
+    font-size: larger;
+}
+
+#film {
+    margin-left: 20px;
+    margin-top: -150px;
+    text-decoration: none;
+    color: black;
+}
+
+#film:hover {
+    border-bottom: 1px solid black;
+    font-size: larger;
+}
+
+.hr1 {
+    margin-left: 390px;
+    margin-top: -10px;
+}
+
+.me {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+#me {
+    padding-right: 40px;
+    padding-left: 40px;
+    text-align: justify;
+}
+
+.contact {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.cnt-skills {
+    margin: -128px 50px 50px 298px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+#cnt-skills {
+    margin-top: -2px;
+    margin-left: 15px;
+}
+
+.work {
+    margin: 15px 50px 30px 450px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.education {
+    margin: -385px 50px 30px 450px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.training {
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.hobbies {
+    margin: -160px 50px 50px 530px;;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+#hobbies {
+    margin-top: -2px;
+    margin-left: 25px;
+}
+
+hr.one {
+    margin-top: -8px;
+}
+
+.three {
+    margin-top: -163px;
+    margin-left: 190px;
+}
+
+.four {
+    margin-top: -9px;
+    margin-left: 450px;
+}
+
+.five {
+    margin-top: 120px;
+}
+
+.six {
+    margin-top: -12px;
+    margin-left: 490px;
+}
+
+.back-button {
+    color: black;
+    font-size: 15px;
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 5px 10px;
+}

@@ -1,0 +1,336 @@
+@font-face {
+    src: url(../fonts/Garet-Book.ttf);
+    font-family: garet;
+} 
+
+.buttons-container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.buttons {
+    font-family: garet;
+    font-size: 15px;
+    letter-spacing: 2px;
+    text-align: right;
+    padding-right: 50px;
+} 
+
+#home {
+    text-decoration: none;
+    color: black;
+}
+
+#home:hover {
+    border-bottom: 1px solid black;
+    font-size: larger;
+}
+
+#aboutme {  
+    margin-left: 20px;
+    margin-top: -150px;
+    text-decoration: none;
+    color: black;
+}
+
+#aboutme:hover {
+    border-bottom: 1px solid black;
+    font-size: larger;
+}
+
+#skills {
+    margin-left: 20px;
+    margin-top: -150px;
+    text-decoration: none;
+    color: black;
+}
+
+#skills:hover {
+    border-bottom: 1px solid black;
+    font-size: larger;
+}
+
+#resume {
+    margin-left: 20px;
+    margin-top: -150px;
+    text-decoration: none;
+    color: black;
+}
+
+#resume:hover {
+    border-bottom: 1px solid black;
+    font-size: larger;
+}
+
+#gallery {
+    margin-left: 20px;
+    margin-top: -150px;
+    text-decoration: none;
+    color: black;
+}
+
+#gallery:hover {
+    border-bottom: 1px solid black;
+    font-size: larger;
+}
+
+#beat {
+    margin-left: 20px;
+    margin-top: -150px;
+    text-decoration: none;
+    color: black;
+}
+
+#beat:hover {
+    border-bottom: 1px solid black;
+    font-size: larger;
+}
+
+#film {
+    margin-left: 20px;
+    margin-top: -150px;
+    text-decoration: none;
+    color: black;
+}
+
+#film:hover {
+    border-bottom: 1px solid black;
+    font-size: larger;
+}
+
+.menu-page {
+    margin-bottom: 100px;
+}
+
+.header {
+    margin-top: 110px;
+    margin-left: 30px;
+    padding-left: 15px;
+}
+
+#title-film {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 100px;
+    letter-spacing: 2px;
+    margin-bottom: 0px;
+}
+
+#title-page {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 100px;
+    letter-spacing: 2px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.menu-image {
+    margin-top: -380px;
+    margin-left: 750px;
+}
+
+#menu-image {
+    width: 350px;
+    height: auto;
+}
+
+#description {
+    font-family: garet;
+}
+
+.header {
+    margin-bottom: 250px;
+    
+}
+#anime-container {
+    position: relative;
+    left: 40px;
+}
+#anime-title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 60px;
+    letter-spacing: 2px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#anime-desc {
+    font-family: garet;
+    margin-right: 100px;
+}
+
+.video1-container {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#Haikyuu {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+#vid1 {
+    width: 500px;
+    height: auto;
+    margin-left: 20px;
+}
+
+#haikyuu-desc1 {
+    font-family: garet;
+    font-size: 16px;
+    text-align: justify;
+    margin-top: -290px;
+    margin-right: 50px;
+    margin-left: 550px;
+}
+
+#haikyuu-desc2 {
+    font-family: garet;
+    font-size: 16px;
+    text-align: justify;
+    margin-right: 50px;
+    margin-left: 550px;
+}
+
+#haikyuu-desc3 {
+    font-family: garet;
+    font-size: 16px;
+    text-align: justify;
+    margin-right: 50px;
+    margin-left: 550px;
+}
+
+.video1-container {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#BlackClover {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+#vid2 {
+    width: 500px;
+    height: auto;
+    margin-left: 20px;
+}
+
+#bc-desc1 {
+    font-family: garet;
+    font-size: 16px;
+    text-align: justify;
+    margin-top: -270px;
+    margin-right: 50px;
+    margin-left: 550px;
+}
+
+#bc-desc2 {
+    font-family: garet;
+    font-size: 16px;
+    text-align: justify;
+    margin-right: 50px;
+    margin-left: 550px;
+}
+
+#movie-container {
+    position: relative;
+    left: 40px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+#movie-title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 60px;
+    letter-spacing: 2px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#movie-desc {
+    font-family: garet;
+    margin-right: 100px;
+}
+
+.video1-container1 {
+    margin-bottom: 100px;
+}
+
+#Spiderman {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+#vid3 {
+    width: 500px;
+    height: auto;
+    margin-left: 20px;
+}
+
+#spider-desc1 {
+    font-family: garet;
+    font-size: 16px;
+    text-align: justify;
+    margin-top: -255px;
+    margin-right: 50px;
+    margin-left: 550px;
+}
+
+#spider-desc2 {
+    font-family: garet;
+    font-size: 16px;
+    text-align: justify;
+    margin-right: 50px;
+    margin-left: 550px;
+}
+
+#spider-desc3 {
+    font-family: garet;
+    font-size: 16px;
+    text-align: justify;
+    margin-right: 50px;
+    margin-left: 550px;
+}
+
+#Zombie {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+#vid4 {
+    width: 500px;
+    height: auto;
+    margin-left: 20px;
+}
+
+#zom-desc1 {
+    font-family: garet;
+    font-size: 16px;
+    text-align: justify;
+    margin-top: -290px;
+    margin-right: 50px;
+    margin-left: 550px;
+}
+
+#zom-desc2 {
+    font-family: garet;
+    font-size: 16px;
+    text-align: justify;
+    margin-right: 50px;
+    margin-left: 550px;
+}
+
+#zom-desc3 {
+    font-family: garet;
+    font-size: 16px;
+    text-align: justify;
+    margin-right: 50px;
+    margin-left: 550px;
+}
