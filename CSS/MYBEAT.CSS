@@ -1,5 +1,5 @@
 @font-face {
-    src: url(../fonts/Garet-Book.ttf);
+    src: url(Garet-Book.ttf);
     font-family: garet;
 } 
 
@@ -99,11 +99,12 @@
 }
 
 .menu-page {
-    margin-bottom: 100px;
+    margin-bottom: 150px;
 }
 
 .header {
     margin-top: 110px;
+    margin-bottom: 0px;
     margin-left: 30px;
     padding-left: 15px;
 }
@@ -137,389 +138,128 @@
     font-family: garet;
 }
 
-#genre1 {
-    margin-left: 15px;
+.music-container1 {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
 }
 
-.genre-container1 {
+.music-container2 {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+}
+
+.music-container3 {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#song1 {
+    border: 1px solid gray;
+    border-radius: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+}
+
+#song2 {
+    margin-left: 50px;
+    border: 1px solid gray;
+    border-radius: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+}
+
+#song3 {
+    margin-left: 50px;
+    border: 1px solid gray;
+    border-radius: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+}
+
+figure {
+    text-align: center;
+    border: #000000 solid 2px;
+    padding: 20px;
+    background-color: #f2f5dd;
+}
+
+img {
+    width: 300px;
+    height: auto;
+    margin-top: 30px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: left;
+}
+
+#title {
     margin-bottom: 0px;
+}
+
+#singer {
+    font-family: garet;
+    color: gray;
+    margin-top: 0px;
+}
+
+audio {
+    width: 100%;
+    color: #000000;
+}
+
+figcaption {
+    font-family: garet;
+    margin-top: 50px;
+    text-align: left;
+}
+
+.genre1 {
+    margin-top: 300px;
+    margin-bottom: 50px;
+}
+
+.genre2 {
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+
+.genre3 {
+    margin-top: 200px;
+    margin-bottom: 100px;
 }
 
 #genre1-header {
-    margin-bottom: 100px;
-    padding-right: 80px;
-    padding-left: 30px;
-}
-
-#genre1-title {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 60px;
-    letter-spacing: 2px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
-
-#genre1-desc {
-    font-family: garet;
-    font-size: 16px;
-}
-
-.genre-music1 {
-    margin-top: 100px;
-}
-
-.music1-container {
-    position: relative;
-    left: 70px;
-}
-
-#nelly-title {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 20px;
-    letter-spacing: 2px;
-    text-align: center;
-    margin-right: 900px;
-}
-
-#Nelly {
-    position: relative;
-    left: 1px;
-}
-
-#song1-desc {
-    text-align: justify;
-    margin-left: 10px;
-    margin-right: 910px;
-    font-family: garet;
-    font-size: 16px;
-}
-
-.music2-container {
-    position: relative;
-    top: -365px;
-    left: 455px;
-}
-
-#mario-title {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 20px;
-    letter-spacing: 2px;
-    margin-left: 10px;
-}
-
-#Mario {
-    position: relative;
-    left: 0px;
-}
-
-#song2-desc {
-    text-align: justify;
-    font-family: garet;
-    font-size: 16px;
-    margin-right: 900px;
-}
-
-.music3-container {
-    position: relative;
-    right: 55px;
-    top: -705px;
-}
-
-#genre1-music3 {
-    margin-right: 20px;
-}
-
-#neyo-title {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 20px;
-    letter-spacing: 2px;
-    margin-left: 950px;
-}
-
-#Neyo {
-    padding-left: 900px;
-    margin-right: 950px;
-}
-
-#song3-desc {
-    text-align: justify;
-    font-family: garet;
-    font-size: 16px;
-    margin-left: 900px;
-    margin-right: 1px;
-}
-
-#genre2 {
-    margin-left: 15px;
-}
-
-.genre2-container {
-    position: relative;
-    
+    margin-bottom: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 #genre2-header {
-    margin-bottom: 100px;
-    padding-right: 80px;
-    padding-left: 30px;
-}
-
-#genre2-title {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 60px;
-    letter-spacing: 2px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
-
-#genre2-desc {
-    font-family: garet;
-    font-size: 16px;
-}
-
-.genre-container2 {
-    position: relative;
-    top: -500px;
-}
-
-#genre2-header {
-    margin-bottom: 100px;
-    padding-right: 80px;
-    padding-left: 30px;
-}
-
-#genre2-title {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 60px;
-    letter-spacing: 2px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
-
-#genre2-desc {
-    font-family: garet;
-    font-size: 16px;
-}
-
-.genre2-music1 {
-    margin-top: 100px;
-}
-
-.music1-container1 {
-    position: relative;
-    left: 30px;
-}
-
-#fray-title {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 20px;
-    letter-spacing: 2px;
-    text-align: center;
-    margin-right: 900px;
-}
-
-#Fray {
-    position: relative;
-    left: 1px;
-}
-
-#song1-desc1 {
-    text-align: justify;
-    margin-left: 10px;
-    margin-right: 910px;
-    font-family: garet;
-    font-size: 16px;
-}
-
-.music2-container2 {
-    position: relative;
-    top: -385px;
-    left: 415px;
-}
-
-#blg-title {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 20px;
-    letter-spacing: 2px;
-    margin-left: 10px;
-}
-
-#blg {
-    position: relative;
-    left: 0px;
-}
-
-#song2-desc2 {
-    text-align: justify;
-    font-family: garet;
-    font-size: 16px;
-    margin-right: 900px;
-}
-
-.music3-container3 {
-    position: relative;
-    right: 100px;
-    top: -750px;
-}
-
-#genre2-music3 {
-    margin-right: 20px;
-}
-
-#snow-title {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 20px;
-    letter-spacing: 2px;
-    margin-left: 950px;
-}
-
-#Snow {
-    padding-left: 900px;
-    margin-right: 950px;
-}
-
-#song3-desc3 {
-    text-align: justify;
-    font-family: garet;
-    font-size: 16px;
-    margin-left: 900px;
-    margin-right: 1px;
-}
-
-#genre3 {
-    margin-left: 15px;
-}
-
-.genre3-container {
-    position: relative;
-    
+    margin-bottom: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 #genre3-header {
-    margin-bottom: 100px;
-    padding-right: 80px;
-    padding-left: 30px;
-}
-
-#genre3-title {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 60px;
-    letter-spacing: 2px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
-
-#genre3-desc {
-    font-family: garet;
-    font-size: 16px;
-}
-
-.genre-container3 {
-    position: relative;
-    top: -600px;
-    margin-bottom: 0px;
-}
-
-#genre3-header {
-    margin-bottom: 100px;
-    padding-right: 80px;
-    padding-left: 30px;
-}
-
-#genre3-title {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 60px;
-    letter-spacing: 2px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
-
-#genre3-desc {
-    font-family: garet;
-    font-size: 16px;
-}
-
-.genre3-music1 {
-    margin-top: 100px;
-}
-
-.music11-container11 {
-    position: relative;
-    left: 30px;
-}
-
-#sponge-title {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 20px;
-    letter-spacing: 2px;
-    text-align: center;
-    margin-right: 900px;
-}
-
-#Sponge {
-    position: relative;
-    left: 1px;
-}
-
-#song11-desc11 {
-    text-align: justify;
-    margin-left: 10px;
-    margin-right: 910px;
-    font-family: garet;
-    font-size: 16px;
-}
-
-.music22-container22 {
-    position: relative;
-    top: -480px;
-    left: 415px;
-}
-
-#cueshe-title {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 20px;
-    letter-spacing: 2px;
-    margin-left: 10px;
-}
-
-#Cueshe {
-    position: relative;
-    left: 0px;
-}
-
-#song22-desc22 {
-    text-align: justify;
-    font-family: garet;
-    font-size: 16px;
-    margin-right: 900px;
-}
-
-.music33-container33 {
-    position: relative;
-    right: 100px;
-    top: -890px;
-}
-
-#genre3-music3 {
-    margin-right: 20px;
-}
-
-#hale-title {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 20px;
-    letter-spacing: 2px;
-    margin-left: 920px;
-}
-
-#Hale {
-    padding-left: 900px;
-    margin-right: 950px;
-}
-
-#song33-desc33 {
-    text-align: justify;
-    font-family: garet;
-    font-size: 16px;
-    margin-left: 900px;
-    margin-right: 1px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
