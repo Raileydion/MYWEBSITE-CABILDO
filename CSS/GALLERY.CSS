@@ -99,6 +99,18 @@
     font-size: larger;
 }
 
+#bucketlist {
+    margin-left: 20px;
+    margin-top: -150px;
+    text-decoration: none;
+    color: black;
+}
+
+#bucketlist:hover {
+    border-bottom: 1px solid black;
+    font-size: larger;
+}
+
 #gallery-title {
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
