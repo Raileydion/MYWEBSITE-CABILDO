@@ -116,6 +116,18 @@ h1 {
     font-size: larger;
 }
 
+#bucketlist {
+    margin-left: 20px;
+    margin-top: -150px;
+    text-decoration: none;
+    color: black;
+}
+
+#bucketlist:hover {
+    border-bottom: 1px solid black;
+    font-size: larger;
+}
+
 .hr1 {
     margin-left: 390px;
     margin-top: -10px;
