@@ -110,6 +110,18 @@
         font-size: larger;
     }
 
+    #places {
+        margin-left: 20px;
+        margin-top: -150px;
+        text-decoration: none;
+        color: black;
+    }
+
+    #places:hover {
+        border-bottom: 1px solid black;
+        font-size: larger;
+    }
+
     #btn1 {
         font-family: Georgia, 'Times New Roman', Times, serif;
         letter-spacing: 2px;
