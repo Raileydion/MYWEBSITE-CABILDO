@@ -216,6 +216,7 @@
     .button1 {
         font-family: garet;
         font-size: 13px;
+        text-align: center;
         padding: 5px;
         color: black;
         text-decoration: none;
@@ -234,9 +235,8 @@
     .button2 {
         font-family: garet;
         font-size: 13px;
+        text-align: center;
         padding: 5px;
-        border: 1px solid black;
-        border-radius: 5px;
         color: black;
         text-decoration: none;
     }
@@ -255,9 +255,8 @@
     .button3 {
         font-family: garet;
         font-size: 13px;
+        text-align: center;
         padding: 5px;
-        border: 1px solid black;
-        border-radius: 5px;
         color: black;
         text-decoration: none;
     }
