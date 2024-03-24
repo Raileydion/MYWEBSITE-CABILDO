@@ -494,6 +494,7 @@
 #home2 {
     font-family: garet;
     font-size: 13px;
+    margin-left: 10px;
     padding: 5px;
     border: 1px solid black;
     border-radius: 5px;
@@ -508,7 +509,6 @@
 #gotop3 {
     font-family: garet;
     font-size: 13px;
-    margin-left: 10px;
     padding: 5px;
     border: 1px solid black;
     border-radius: 5px;
