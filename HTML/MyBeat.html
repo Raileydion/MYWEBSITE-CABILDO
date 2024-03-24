@@ -2,103 +2,10 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>My Film</title>
-
-
-  <style>
-
-.video-container1 {
-    display: flex;
-    justify-content: space-between;
-    margin-left: 50px;
-    margin-bottom: 50px;
-}
-
-.video-container2 {
-    display: flex;
-    justify-content: space-between;
-    margin-left: 50px;
-    margin-bottom: 50px;
-}
-
-.video-container3 {
-    display: flex;
-    justify-content: space-between;
-    margin-left: 50px;
-    margin-bottom: 50px;
-}
-
-.video-container4 {
-    display: flex;
-    justify-content: space-between;
-    margin-left: 50px;
-    margin-bottom: 50px;
-}
-
-#video1 {
-    border: 1px solid gray;
-    border-radius: 20px;
-}
-
-#video2 {
-    border: 1px solid gray;
-    border-radius: 20px;
-}
-
-#video3 {
-    border: 1px solid gray;
-    border-radius: 20px;
-}
-
-#video4 {
-    border: 1px solid gray;
-    border-radius: 20px;
-}
-
-video {
-    float: left;
-    width: 500px;
-    height: auto;
-    margin-top: 30px;
-    margin-bottom: 50px;
-    margin-right: 20px;
-    border-radius: 5px;
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
-}
-
-h2 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align: left;
-}
-
-figcaption {
-    font-family: garet;
-    font-size: 15px;
-    text-align: left;
-    margin-top: 60px;
-    margin-left: 20px;
-    margin-right: 20px;
-}
-
-#next-button {
-    font-family: garet;
-    font-size: 13px;
-    padding: 5px;
-    border: 1px solid black;
-    border-radius: 5px;
-    color: black;
-    text-decoration: none;
-}
-
-h2 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 30px;
-    text-align: center;
-}
-</style>
+  <title>My Beat</title>
 </head>
 <body>
-    <link rel="stylesheet" type="text/css" href="../CSS/MYFILM.CSS">
+    <link rel="stylesheet" type="text/css" href="../CSS/MYBEAT.CSS">
     <!--CABILDO, RAILEY DION-->
     <!--02.05.204-->
     
@@ -106,7 +13,7 @@ h2 {
         <div class="menu-page">  
             <div class="buttons-container" id="main">
                 <div class="buttons">
-                    <a id="home" href="../index.HTML">Home</a>
+                    <a id="home" href="../HTML/CABILDO_HOMEPAGE_ITAD.HTML">Home</a>
                     <a id="aboutme" href="../HTML/P-Project-1_BIO.html">About Me</a>
                     <a id="skills" href="../HTML/Skills,Interest,Hobbies.html">Skills</a>
                     <a id="resume" href="../HTML/CABILDO_resumeDesign_itad.HTML">Resume</a>
@@ -117,82 +24,126 @@ h2 {
             </div>
             
             <div class="header">
-                <h1 id="title-film">MY FILM</h1>
+                <h1 id="title-beat">MY BEAT</h1>
                 <h1 id="title-page">PAGE.</h1>
-                <p id="description">I'm sharing the movies I love and enjoy watching on this page. <br> You'll get to see the types of movies that capture my interest and keep me entertained.</p>
-                <a id="next-button" href="#anime-header">Next</a>
+                <p id="description">On this page, I'll tell you about the music I like, <br> including the my favorite genre and my music taste. </p>
             </div>
+        </div>
 
-            <div id="anime-container" id="anime-header">
-                <h1 id="anime-title">ANIME</h1>
-                <p id="anime-desc">A movie is a form of visual storytelling that uses moving images and sound to depict a scripted story acted out by characters. It can belong to genres like drama, comedy, action, etc., and is shown in theaters or on various platforms for entertainment, education, and cultural expression, impacting society's opinions and emotions.
-                </p>
+        <div class="genre1">
+            <div id="genre1-header">
+                <div>
+                    <h1 style="font-family: Georgia, 'Times New Roman', Times, serif; font-size: 50px; margin: 0px;">R&B</h1>
+                    <p style="font-family: garet;">R&B stands for Rhythm and Blues, which is a genre of popular music that originated in African American communities in the United States in the late 1940s. It combines elements of jazz, gospel, and blues music, often characterized by soulful vocals, strong rhythms, and emotional lyrics. R&B has evolved over the years and has influenced many other genres, including hip hop, pop, and contemporary R&B.</p>
+                </div>
             </div>
+        
+            <div class="music-container1">
+                    <div id="song1">
+                        <img src="B-Poster1.jpg" alt="This is the album of the song.">
+                        <h2 id="title">Just a Dream</h2>
+                        <h2 id="singer">Nelly</h2>
+                        <audio controls preload="none" loop>
+                            <source src="Nelly - Just A Dream (Official Music Video).mp3" type="audio/mpeg">
+                        </audio>
+                    </div>
+                
+                    <div id="song2">
+                        <img src="B-Poster2.jpg" alt="This is the album of the song.">
+                        <h2 id="title">How Do I Breathe</h2>
+                        <h2 id="singer">Mario</h2>
+                        <audio controls preload="none" loop>
+                            <source src="Mario - How Do I Breathe (Official Video).mp3" type="audio/mpeg">
+                        </audio>
+                    </div>
+                
+                    <div id="song3">
+                        <img src="B-Poster3.jpg" alt="This is the album of the song.">
+                        <h2 id="title">Go On Girl</h2>
+                        <h2 id="singer">Ne-Yo</h2>
+                        <audio controls preload="none" loop>
+                            <source src="Ne-Yo - Go On Girl (Official Music Video).mp3" type="audio/mpeg">
+                        </audio>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-            <div class="video-container1">
-                <div id="video1">
-                    <figure>
-                    <h2 style="text-align: center;">"HAIKYUU"</h2>
-                    <video poster="../audios and videos/POSTER1.jpg" controls>
-                        <source source src="../audios and videos/Haikyuu!! Movie： Battle of the Garbage Dump Trailer [English Subtitles].mp4">
-                    </video>
-                    </figure>
-                    <figcaption>
-                    "Haikyuu!!" is a popular sports anime that follows the journey of Hinata Shoyo, a determined and energetic high school student who dreams of becoming a great volleyball player despite his short stature. The anime revolves around his experiences as he joins the Karasuno High School volleyball team and works hard to compete against talented opponents. The series showcases the struggles, victories, and growth of Hinata and his teammates as they train, face challenges, and strive to reach the top of their game. Along the way, viewers are introduced to various characters with unique personalities, skills, and backstories, adding depth and excitement to the story. With its dynamic animation, intense volleyball matches, and heartfelt moments of friendship and teamwork, "Haikyuu!!" has garnered a large fanbase and is praised for its engaging storytelling, well-developed characters, and inspiring themes of perseverance, determination, and passion for achieving one's dreams.
-                    </figcaption>
+        <div id="genre2">
+            <div id="genre2-header">
+                <div>
+                    <h1 style="font-family: Georgia, 'Times New Roman', Times, serif; font-size: 50px; margin: 0px">Pop Rock</h1>
+                    <p style="font-family: garet;">Pop rock is a music genre that blends pop music's catchy melodies with rock's energetic instrumentation. It features upbeat rhythms, memorable hooks, and relatable lyrics covering various themes like love, relationships, and personal experiences. Popularized in the 1970s, pop rock continues to be a favorite due to its broad appeal and infectious tunes.</p>
                 </div>
             </div>
 
-            <div class="video-container2">
-                <div id="video2">
-                    <figure>
-                    <h2 style="text-align: center;">"BLACK CLOVER"</h2>
-                    <video poster="../audios and videos/POSTER2.jpg" controls>
-                        <source source src="../audios and videos/Black Clover： Sword of the Wizard King ｜ Official Trailer ｜ Netflix.mp4">
-                    </video>
-                    </figure>
-                    <figcaption>
-                        "Black Clover" is a captivating fantasy anime centered around Asta, a determined young boy born without magic in a world where magic is everything. Despite his lack of magical abilities, Asta dreams of becoming the Wizard King, the strongest mage in the Clover Kingdom. Alongside his rival and friend Yuno, who possesses exceptional magical talent, Asta embarks on a journey to prove his worth and achieve his dream. The anime is known for its intense magical battles, intricate world-building, and compelling character development. It explores themes of friendship, determination, and self-discovery as Asta and his companions face powerful foes, uncover secrets about their world, and grow stronger through their experiences. "Black Clover" has gained popularity for its action-packed scenes, diverse cast of characters, and engaging storyline, making it a favorite among fantasy anime enthusiasts.
-                    </p>
-                    </figcaption>
+            <div class="music-container2">
+                <div id="song1">
+                    <img src="B-Poster4.jpg" alt="This is the album of the song.">
+                    <h2 id="title">How to Save a Life</h2>
+                    <h2 id="singer">The Fray</h2>
+                    <audio controls preload="none" loop>
+                        <source src="The Fray - How to Save a Life (Official Video).mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+            
+                <div id="song2">
+                    <img src="B-Poster5.jpg" alt="This is the album of the song.">
+                    <h2 id="title">Two Is Better Than One</h2>
+                    <h2 id="singer">Boys Like Girls</h2>
+                    <audio controls preload="none" loop>
+                        <source src="Boys Like Girls - Two Is Better Than One.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+            
+                <div id="song3">
+                    <img src="B-Poster6.jpg" alt="This is the album of the song.">
+                    <h2 id="title">Chasing Cars</h2>
+                    <h2 id="singer">Snow Patrol</h2>
+                    <audio controls preload="none" loop>
+                        <source src="Snow Patrol - Chasing Cars (2007 Version).mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+            </div>
+        </div>
+
+        <div id="genre2">
+            <div id="genre3-header">
+                <div>
+                    <h1 style="font-family: Georgia, 'Times New Roman', Times, serif; font-size: 50px; margin: 0px">OPM</h1>
+                    <p style="font-family: garet;">OPM stands for "Original Pinoy Music," which refers to Filipino music that is composed, produced, and performed by Filipino artists. It encompasses various music genres, including pop, rock, hip-hop, R&B, ballads, and folk music, among others. OPM celebrates Filipino culture, language, and identity through music, and it plays a significant role in the local music industry, reflecting the diversity and creativity of Filipino musicians and songwriters.</p>
                 </div>
             </div>
 
-            <div id="movie-container" id="movie-header">
-                <h1 id="movie-title">MOVIE</h1>
-                <p id="movie-desc">A movie is a form of visual storytelling that uses moving images and sound to depict a scripted story acted out by characters. It can belong to genres like drama, comedy, action, etc., and is shown in theaters or on various platforms for entertainment, education, and cultural expression, impacting society's opinions and emotions.
-                </p>
-            </div>
-
-            <div class="video-container3">
-                <div id="video3">
-                    <figure>
-                    <h2 style="text-align: center;">"SPIDER MAN"</h2>
-                    <video poster="../audios and videos/POSTER3.jpg" controls>
-                        <source source src="../audios and videos/SPIDER-MAN： NO WAY HOME - Spider-Mans Trailer.mp4">
-                    </video>
-                    </figure>
-                    <figcaption>
-                        Spider-Man is a beloved superhero character created by Stan Lee and Steve Ditko for Marvel Comics. The character first appeared in "Amazing Fantasy" #15 in 1962. Spider-Man's alter ego is Peter Parker, a high school student who gains superhuman spider-like abilities after being bitten by a radioactive spider. As Spider-Man, Peter Parker can climb walls, has enhanced strength and agility, and possesses a "spider-sense" that warns him of imminent danger. He uses his powers to fight crime and protect the citizens of New York City. Spider-Man is known for his iconic red and blue costume, web-slinging abilities using mechanical web-shooters, and witty sense of humor during battles. The character has been featured in numerous comic book series, animated TV shows, movies, and video games, becoming one of the most recognizable and beloved superheroes in popular culture.
-                    </figcaption>
+            <div class="music-container3">
+                <div id="song1">
+                    <img src="B-Poster7.png" alt="This is the album of the song.">
+                    <h2 id="title">Di Na Mababawi</h2>
+                    <h2 id="singer">Sponge Cola</h2>
+                    <audio controls preload="none" loop>
+                        <source src="Sponge Cola - Di Na Mababawi (Official Lyric Video).mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+            
+                <div id="song2">
+                    <img src="B-Poster8.jpg" alt="This is the album of the song.">
+                    <h2 id="title">Borrowed Time</h2>
+                    <h2 id="singer">Cueshé</h2>
+                    <audio controls preload="none" loop>
+                        <source src="Cueshé - Borrowed Time.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+            
+                <div id="song3">
+                    <img src="B-Poster9.jpg" alt="This is the album of the song.">
+                    <h2 id="title">Kung Wala Ka</h2>
+                    <h2 id="singer">Hale</h2>
+                    <audio controls preload="none" loop>
+                        <source src="Hale - Kung Wala Ka (Official Music Video).mp3" type="audio/mpeg">
+                    </audio>
                 </div>
             </div>
-
-            <div class="video-container4">
-                <div id="video4">
-                    <figure>
-                    <h2 style="text-align: center;">"ALL OF US ARE DEAD"</h2>
-                    <video poster="../audios and videos/POSTER4.jpg" controls>
-                        <source source src="../audios and videos/Black Clover： Sword of the Wizard King ｜ Official Trailer ｜ Netflix.mp4">
-                    </video>
-                    </figure>
-                    <figcaption>
-                        "All of Us Are Dead" is a South Korean television series based on the webtoon "Now at Our School" by Joo Dong-geun. The series is a zombie apocalypse thriller that follows a group of high school students as they struggle to survive and navigate through a school overrun by zombies. The story unfolds as the students face various challenges and conflicts while trying to escape the deadly situation. It explores themes of survival, friendship, and the human condition under extreme circumstances. The story unfolds as the students face various challenges and conflicts while trying to escape the deadly situation. It explores themes of survival, friendship, and the human condition under extreme circumstances. "All of Us Are Dead" quickly became one of the most-watched Korean dramas on Netflix, attracting viewers with its suspenseful narrative and well-executed zombie genre elements. It contributed to the growing global popularity of Korean entertainment and further solidified Netflix's position as a platform for diverse and engaging content.
-                    </p>
-                    </figcaption>
-                </div>
-            </div>
-        </div>      
-    </div>
+        </div>
+    </div> 
 </body>
 </html>
