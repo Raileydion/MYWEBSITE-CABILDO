@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>My TV Shows</title>
+
+
+  <style>
+@font-face {
+    src: url(fonts/Garet-Book.ttf);
+    font-family: garet;
+} 
+
+.buttons-container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.buttons {
+    font-family: garet;
+    font-size: 15px;
+    letter-spacing: 2px;
+    text-align: right;
+    padding-right: 50px;
+} 
+
+#home {
+    text-decoration: none;
+    color: black;
+}
+
+#home:hover {
+    border-bottom: 1px solid black;
+    font-size: larger;
+}
+
+#aboutme {  
+    margin-left: 20px;
+    margin-top: -150px;
+    text-decoration: none;
+    color: black;
+}
+
+#aboutme:hover {
+    border-bottom: 1px solid black;
+    font-size: larger;
+}
+
+#skills {
+    margin-left: 20px;
+    margin-top: -150px;
+    text-decoration: none;
+    color: black;
+}
+
+#skills:hover {
+    border-bottom: 1px solid black;
+    font-size: larger;
+}
+
+#resume {
+    margin-left: 20px;
+    margin-top: -150px;
+    text-decoration: none;
+    color: black;
+}
+
+#resume:hover {
+    border-bottom: 1px solid black;
+    font-size: larger;
+}
+
+#gallery {
+    margin-left: 20px;
+    margin-top: -150px;
+    text-decoration: none;
+    color: black;
+}
+
+#gallery:hover {
+    border-bottom: 1px solid black;
+    font-size: larger;
+}
+
+#beat {
+    margin-left: 20px;
+    margin-top: -150px;
+    text-decoration: none;
+    color: black;
+}
+
+#beat:hover {
+    border-bottom: 1px solid black;
+    font-size: larger;
+}
+
+#movie {
+    margin-left: 20px;
+    margin-top: -150px;
+    text-decoration: none;
+    color: black;
+}
+
+#movie:hover {
+    border-bottom: 1px solid black;
+    font-size: larger;
+}
+
+#tv {
+    margin-left: 20px;
+    margin-top: -150px;
+    text-decoration: none;
+    color: black;
+}
+
+#tv:hover {
+    border-bottom: 1px solid black;
+    font-size: larger;
+}
+
+#bucketlist {
+    margin-left: 20px;
+    margin-top: -150px;
+    text-decoration: none;
+    color: black;
+}
+
+#bucketlist:hover {
+    border-bottom: 1px solid black;
+    font-size: larger;
+}
+
+#places {
+    margin-left: 20px;
+    margin-top: -150px;
+    text-decoration: none;
+    color: black;
+}
+
+#places:hover {
+    border-bottom: 1px solid black;
+    font-size: larger;
+}
+
+
+.menu-page {
+    margin-bottom: 100px;
+}
+
+.header {
+    margin-top: 110px;
+    margin-left: 30px;
+    padding-left: 15px;
+}
+
+#title-film {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 100px;
+    letter-spacing: 2px;
+    margin-bottom: 0px;
+}
+
+#title-page {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 100px;
+    letter-spacing: 2px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.menu-image {
+    margin-top: -380px;
+    margin-left: 750px;
+}
+
+#menu-image {
+    width: 350px;
+    height: auto;
+}
+
+#description {
+    font-family: garet;
+}
+
+.header {
+    margin-bottom: 250px;
+    
+}
+#anime-container {
+    position: relative;
+    left: 40px;
+}
+#anime-title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 60px;
+    letter-spacing: 2px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#anime-desc {
+    font-family: garet;
+    margin-right: 100px;
+}
+
+.video1-container {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#Haikyuu {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+#vid1 {
+    width: 500px;
+    height: auto;
+    margin-left: 20px;
+}
+
+#haikyuu-desc1 {
+    font-family: garet;
+    font-size: 16px;
+    text-align: justify;
+    margin-top: -290px;
+    margin-right: 50px;
+    margin-left: 550px;
+}
+
+#haikyuu-desc2 {
+    font-family: garet;
+    font-size: 16px;
+    text-align: justify;
+    margin-right: 50px;
+    margin-left: 550px;
+}
+
+#haikyuu-desc3 {
+    font-family: garet;
+    font-size: 16px;
+    text-align: justify;
+    margin-right: 50px;
+    margin-left: 550px;
+}
+
+.video1-container {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#BlackClover {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+#vid2 {
+    width: 500px;
+    height: auto;
+    margin-left: 20px;
+}
+
+#bc-desc1 {
+    font-family: garet;
+    font-size: 16px;
+    text-align: justify;
+    margin-top: -270px;
+    margin-right: 50px;
+    margin-left: 550px;
+}
+
+#bc-desc2 {
+    font-family: garet;
+    font-size: 16px;
+    text-align: justify;
+    margin-right: 50px;
+    margin-left: 550px;
+}
+
+.video-container1 {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+.video-container2 {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+.video-container3 {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+
+#video1 {
+    border: 1px solid gray;
+    border-radius: 20px;
+}
+
+#video2 {
+    border: 1px solid gray;
+    border-radius: 20px;
+}
+
+#video3 {
+    border: 1px solid gray;
+    border-radius: 20px;
+}
+
+video {
+    float: left;
+    width: 500px;
+    height: auto;
+    padding: 20px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-right: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: left;
+}
+
+figcaption {
+    font-family: garet;
+    font-size: 15px;
+    text-align: left;
+    margin-top: 60px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#next-button {
+    font-family: garet;
+    font-size: 13px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: black;
+    text-decoration: none;
+}
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+</style>
+</head>
+<body>
+    <link rel="stylesheet" type="text/css" href="../CSS/MYFILM.CSS">
+    <!--CABILDO, RAILEY DION-->
+    <!--02.05.204-->
+    
+    <div class="content">
+        <div class="menu-page">  
+            <div class="buttons-container" id="main">
+                <div class="buttons">
+                    <a id="home" href="../index.HTML">Home</a>
+                    <a id="aboutme" href="P-Project-1_BIO.html">About Me</a>
+                    <a id="skills" href="Skills,Interest,Hobbies.html">Skills</a>
+                    <a id="resume" href="CABILDO_resumeDesign_itad.HTML">Resume</a>
+                    <a id="gallery" href="Gallery.html">Gallery</a> 
+                    <a id="beat" href="MyBeat.html">My Beat</a> 
+                    <a id="movie" href="HTML/MyMovies.html">Movie</a>
+                    <a id="tv" href="HTML/MyTVShows.html">TV Shows</a
+                    <a id="bucketlist" href="BucketList.html">Bucket List</a> 
+                    <a id="places" href="Places I Want To Visit/PlacesIwantToVisit.html">Dream Places</a>
+                </div>
+            </div>
+            
+            <div class="header">
+                <h1 id="title-film">MY TV SHOWS</h1>
+                <h1 id="title-page">PAGE.</h1>
+                <p id="description">I'm sharing the movies I love and enjoy watching on this page. <br> You'll get to see the types of movies that capture my interest and keep me entertained.</p>
+                <a id="next-button" href="#anime-container">Next</a>
+            </div>
+
+            <div id="anime-container">
+                <h1 id="anime-title">ANIME</h1>
+                <p id="anime-desc">A movie is a form of visual storytelling that uses moving images and sound to depict a scripted story acted out by characters. It can belong to genres like drama, comedy, action, etc., and is shown in theaters or on various platforms for entertainment, education, and cultural expression, impacting society's opinions and emotions.
+                </p>
+            </div>
+
+            <div class="video-container1">
+                <div id="video1">
+                    <figure>
+                    <h2 style="text-align: center;">"HAIKYUU"</h2>
+                    <video poster="MY WEBSITE/audios and videos/POSTER1.jpg" controls>
+                        <source source src="MY WEBSITE/audios and videos/Haikyuu!! Movie： Battle of the Garbage Dump Trailer [English Subtitles].mp4">
+                    </video>
+                    </figure>
+                    <figcaption>
+                    "Haikyuu!!" is a popular sports anime TV Show that follows the journey of Hinata Shoyo, a determined and energetic high school student who dreams of becoming a great volleyball player despite his short stature. The anime revolves around his experiences as he joins the Karasuno High School volleyball team and works hard to compete against talented opponents. The series showcases the struggles, victories, and growth of Hinata and his teammates as they train, face challenges, and strive to reach the top of their game. Along the way, viewers are introduced to various characters with unique personalities, skills, and backstories, adding depth and excitement to the story. With its dynamic animation, intense volleyball matches, and heartfelt moments of friendship and teamwork, "Haikyuu!!" has garnered a large fanbase and is praised for its engaging storytelling, well-developed characters, and inspiring themes of perseverance, determination, and passion for achieving one's dreams.
+                    </figcaption>
+                </div>
+            </div>
+
+            <div class="video-container2">
+                <div id="video2">
+                    <figure>
+                    <h2 style="text-align: center;">"BLACK CLOVER"</h2>
+                    <video poster="MY WEBSITE/audios and videos/POSTER2.jpg" controls>
+                        <source source src="MY WEBSITE/audios and videos/Black Clover： Sword of the Wizard King ｜ Official Trailer ｜ Netflix.mp4">
+                    </video>
+                    </figure>
+                    <figcaption>
+                        "Black Clover" is a captivating fantasy anime TV Show centered around Asta, a determined young boy born without magic in a world where magic is everything. Despite his lack of magical abilities, Asta dreams of becoming the Wizard King, the strongest mage in the Clover Kingdom. Alongside his rival and friend Yuno, who possesses exceptional magical talent, Asta embarks on a journey to prove his worth and achieve his dream. The anime is known for its intense magical battles, intricate world-building, and compelling character development. It explores themes of friendship, determination, and self-discovery as Asta and his companions face powerful foes, uncover secrets about their world, and grow stronger through their experiences. "Black Clover" has gained popularity for its action-packed scenes, diverse cast of characters, and engaging storyline, making it a favorite among fantasy anime enthusiasts.
+                    </p>
+                    </figcaption>
+                </div>
+            </div>
+
+            <div class="video-container3">
+                <div id="video3">
+                    <figure>
+                    <h2 style="text-align: center;">"ONE PIECE"</h2>
+                    <video poster="MY WEBSITE/audios and videos/POSTER5.jpg" controls>
+                        <source source src="MY WEBSITE/audios and videos/_ONE PIECE STAMPEDE_ _ Official Trailer.mp4">
+                    </video>
+                    </figure>
+                    <figcaption>
+                        "One Piece" is a widely acclaimed anime TV Show that chronicles the daring exploits of Monkey D. Luffy, a young pirate captain aiming to become the Pirate King by finding the elusive One Piece treasure. His crew, including the fearless swordsman Roronoa Zoro, the ingenious navigator Nami, and the enigmatic archaeologist Nico Robin, embarks on an epic journey filled with action-packed battles, heartwarming friendships, and life-changing discoveries across the vast seas of the Grand Line. Along the way, they encounter powerful foes such as the tyrannical World Government, the enigmatic Seven Warlords of the Sea, and the fearsome Yonko, adding layers of complexity and intrigue to their adventures. The anime's captivating narrative, intricate plot twists, and profound messages about chasing dreams, overcoming obstacles, and forging unbreakable bonds of camaraderie have solidified its status as a timeless masterpiece in the world of animation.
+                    </p>
+                    </figcaption>
+                </div>
+            </div>
+        </div>      
+    </div>
+</body>
+</html>
