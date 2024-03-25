@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>My Movies</title>
+
+
+  <style>
+@font-face {
+    src: url(fonts/Garet-Book.ttf);
+    font-family: garet;
+} 
+
+.buttons-container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.buttons {
+    font-family: garet;
+    font-size: 15px;
+    letter-spacing: 2px;
+    text-align: right;
+    padding-right: 50px;
+} 
+
+#home {
+    text-decoration: none;
+    color: black;
+}
+
+#home:hover {
+    border-bottom: 1px solid black;
+    font-size: larger;
+}
+
+#aboutme {  
+    margin-left: 20px;
+    margin-top: -150px;
+    text-decoration: none;
+    color: black;
+}
+
+#aboutme:hover {
+    border-bottom: 1px solid black;
+    font-size: larger;
+}
+
+#skills {
+    margin-left: 20px;
+    margin-top: -150px;
+    text-decoration: none;
+    color: black;
+}
+
+#skills:hover {
+    border-bottom: 1px solid black;
+    font-size: larger;
+}
+
+#resume {
+    margin-left: 20px;
+    margin-top: -150px;
+    text-decoration: none;
+    color: black;
+}
+
+#resume:hover {
+    border-bottom: 1px solid black;
+    font-size: larger;
+}
+
+#gallery {
+    margin-left: 20px;
+    margin-top: -150px;
+    text-decoration: none;
+    color: black;
+}
+
+#gallery:hover {
+    border-bottom: 1px solid black;
+    font-size: larger;
+}
+
+#beat {
+    margin-left: 20px;
+    margin-top: -150px;
+    text-decoration: none;
+    color: black;
+}
+
+#beat:hover {
+    border-bottom: 1px solid black;
+    font-size: larger;
+}
+
+#movie {
+    margin-left: 20px;
+    margin-top: -150px;
+    text-decoration: none;
+    color: black;
+}
+
+#movie:hover {
+    border-bottom: 1px solid black;
+    font-size: larger;
+}
+
+#tv {
+    margin-left: 20px;
+    margin-top: -150px;
+    text-decoration: none;
+    color: black;
+}
+
+#tv:hover {
+    border-bottom: 1px solid black;
+    font-size: larger;
+}
+
+#bucketlist {
+    margin-left: 20px;
+    margin-top: -150px;
+    text-decoration: none;
+    color: black;
+}
+
+#bucketlist:hover {
+    border-bottom: 1px solid black;
+    font-size: larger;
+}
+
+#places {
+    margin-left: 20px;
+    margin-top: -150px;
+    text-decoration: none;
+    color: black;
+}
+
+#places:hover {
+    border-bottom: 1px solid black;
+    font-size: larger;
+}
+
+
+.menu-page {
+    margin-bottom: 100px;
+}
+
+.header {
+    margin-top: 110px;
+    margin-left: 30px;
+    padding-left: 15px;
+}
+
+#title-film {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 100px;
+    letter-spacing: 2px;
+    margin-bottom: 0px;
+}
+
+#title-page {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 100px;
+    letter-spacing: 2px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.menu-image {
+    margin-top: -380px;
+    margin-left: 750px;
+}
+
+#menu-image {
+    width: 350px;
+    height: auto;
+}
+
+#description {
+    font-family: garet;
+}
+
+.header {
+    margin-bottom: 250px;
+}
+
+#movie-container {
+    position: relative;
+    left: 40px;
+    margin-top: 100px;
+}
+#movie-title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 60px;
+    letter-spacing: 2px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#movie-desc {
+    font-family: garet;
+    margin-right: 100px;
+}
+
+.video1-container1 {
+    margin-bottom: 100px;
+}
+
+#Spiderman {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+#vid3 {
+    width: 500px;
+    height: auto;
+    margin-left: 20px;
+}
+
+#spider-desc1 {
+    font-family: garet;
+    font-size: 16px;
+    text-align: justify;
+    margin-top: -255px;
+    margin-right: 50px;
+    margin-left: 550px;
+}
+
+#spider-desc2 {
+    font-family: garet;
+    font-size: 16px;
+    text-align: justify;
+    margin-right: 50px;
+    margin-left: 550px;
+}
+
+#spider-desc3 {
+    font-family: garet;
+    font-size: 16px;
+    text-align: justify;
+    margin-right: 50px;
+    margin-left: 550px;
+}
+
+#Zombie {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+#vid4 {
+    width: 500px;
+    height: auto;
+    margin-left: 20px;
+}
+
+#zom-desc1 {
+    font-family: garet;
+    font-size: 16px;
+    text-align: justify;
+    margin-top: -290px;
+    margin-right: 50px;
+    margin-left: 550px;
+}
+
+#zom-desc2 {
+    font-family: garet;
+    font-size: 16px;
+    text-align: justify;
+    margin-right: 50px;
+    margin-left: 550px;
+}
+
+#zom-desc3 {
+    font-family: garet;
+    font-size: 16px;
+    text-align: justify;
+    margin-right: 50px;
+    margin-left: 550px;
+}
+
+.video-container1 {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+.video-container2 {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+.video-container3 {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+#video1 {
+    border: 1px solid gray;
+    border-radius: 20px;
+}
+
+#video2 {
+    border: 1px solid gray;
+    border-radius: 20px;
+}
+
+#video3 {
+    border: 1px solid gray;
+    border-radius: 20px;
+}
+
+video {
+    float: left;
+    width: 500px;
+    height: auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-right: 20px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: left;
+}
+
+figcaption {
+    font-family: garet;
+    font-size: 15px;
+    text-align: left;
+    margin-top: 60px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#next-button {
+    font-family: garet;
+    font-size: 13px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: black;
+    text-decoration: none;
+}
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+</style>
+</head>
+<body>
+    <link rel="stylesheet" type="text/css" href="../CSS/MYFILM.CSS">
+    <!--CABILDO, RAILEY DION-->
+    <!--02.05.204-->
+    
+    <div class="content">
+        <div class="menu-page">  
+            <div class="buttons-container" id="main">
+                <div class="buttons">
+                    <a id="home" href="../index.HTML">Home</a>
+                    <a id="aboutme" href="P-Project-1_BIO.html">About Me</a>
+                    <a id="skills" href="Skills,Interest,Hobbies.html">Skills</a>
+                    <a id="resume" href="CABILDO_resumeDesign_itad.HTML">Resume</a>
+                    <a id="gallery" href="Gallery.html">Gallery</a> 
+                    <a id="beat" href="MyBeat.html">My Beat</a> 
+                    <a id="movie" href="HTML/MyMovies.html">Movie</a>
+                    <a id="tv" href="HTML/MyTVShows.html">TV Shows</a>
+                    <a id="bucketlist" href="BucketList.html">Bucket List</a> 
+                    <a id="places" href="Places I Want To Visit/PlacesIwantToVisit.html">Dream Places</a>
+                </div>
+            </div>
+            
+            <div class="header">
+                <h1 id="title-film">MY MOVIE</h1>
+                <h1 id="title-page">PAGE.</h1>
+                <p id="description">I'm sharing the movies I love and enjoy watching on this page. <br> You'll get to see the types of movies that capture my interest and keep me entertained.</p>
+                <a id="next-button" href="#movie-container">Next</a>
+            </div>
+
+            <div id="movie-container" id="movie-header">
+                <h1 id="movie-title">MOVIE</h1>
+                <p id="movie-desc">A movie is a form of visual storytelling that uses moving images and sound to depict a scripted story acted out by characters. It can belong to genres like drama, comedy, action, etc., and is shown in theaters or on various platforms for entertainment, education, and cultural expression, impacting society's opinions and emotions.
+                </p>
+            </div>
+
+            <div class="video-container1">
+                <div id="video1">
+                    <figure>
+                    <h2 style="text-align: center;">"SPIDER MAN"</h2>
+                    <video poster="MY WEBSITE/audios and videos/POSTER3.jpg" controls>
+                        <source source src="MY WEBSITE/audios and videos/SPIDER-MAN： NO WAY HOME - Spider-Mans Trailer.mp4">
+                    </video>
+                    </figure>
+                    <figcaption>
+                        Spider-Man is a beloved superhero character created by Stan Lee and Steve Ditko for Marvel Comics. The character first appeared in "Amazing Fantasy" #15 in 1962. Spider-Man's alter ego is Peter Parker, a high school student who gains superhuman spider-like abilities after being bitten by a radioactive spider. As Spider-Man, Peter Parker can climb walls, has enhanced strength and agility, and possesses a "spider-sense" that warns him of imminent danger. He uses his powers to fight crime and protect the citizens of New York City. Spider-Man is known for his iconic red and blue costume, web-slinging abilities using mechanical web-shooters, and witty sense of humor during battles. The character has been featured in numerous comic book series, animated TV shows, movies, and video games, becoming one of the most recognizable and beloved superheroes in popular culture.
+                    </figcaption>
+                </div>
+            </div>
+
+            <div class="video-container2">
+                <div id="video2">
+                    <figure>
+                    <h2 style="text-align: center;">"ALL OF US ARE DEAD"</h2>
+                    <video poster="MY WEBSITE/audios and videos/POSTER4.jpg" controls>
+                        <source source src="MY WEBSITE/audios and videos/All of Us Are Dead ｜ Official Teaser ｜ Netflix.mp4">
+                    </video>
+                    </figure>
+                    <figcaption>
+                        "All of Us Are Dead" is a South Korean television series based on the webtoon "Now at Our School" by Joo Dong-geun. The series is a zombie apocalypse thriller that follows a group of high school students as they struggle to survive and navigate through a school overrun by zombies. The story unfolds as the students face various challenges and conflicts while trying to escape the deadly situation. It explores themes of survival, friendship, and the human condition under extreme circumstances. The story unfolds as the students face various challenges and conflicts while trying to escape the deadly situation. It explores themes of survival, friendship, and the human condition under extreme circumstances. "All of Us Are Dead" quickly became one of the most-watched Korean dramas on Netflix, attracting viewers with its suspenseful narrative and well-executed zombie genre elements. It contributed to the growing global popularity of Korean entertainment and further solidified Netflix's position as a platform for diverse and engaging content.
+                    </p>
+                    </figcaption>
+                </div>
+            </div>
+
+            <div class="video-container3">
+                <div id="video3">
+                    <figure>
+                    <h2 style="text-align: center;">"YU YU HAKUSHO"</h2>
+                    <video poster="MY WEBSITE/audios and videos/POSTER6.jpg" controls>
+                        <source source src="MY WEBSITE/audios and videos/Yu Yu Hakusho _ Official Teaser _ Netflix.mp4">
+                    </video>
+                    </figure>
+                    <figcaption>
+                        "Yu Yu Hakusho," created by Yoshihiro Togashi, is a Japanese manga and anime series that follows the story of Yusuke Urameshi, a rebellious teenager who sacrifices his life to save a child. Upon being revived as an "Underworld Detective" by Koenma, the son of the afterlife ruler, Yusuke is tasked with investigating supernatural cases in the Human World involving demons and apparitions. As the series progresses, it delves deeper into martial arts battles and tournaments, blending elements of the occult, horror films, and Buddhist mythology that influenced Togashi's work. Serialized in Weekly Shonen Jump from 1990 to 1994, the manga spans 175 chapters across 19 volumes and has been well-received globally with over 78 million copies sold, earning accolades such as the Shogakukan Manga Award in 1993. The anime adaptation, consisting of 112 episodes, aired from 1992 to 1994 and garnered praise for its compelling writing, diverse characters, humor, and action sequences.
+                    </figcaption>
+                </div>
+            </div>
+        </div>      
+    </div>
+</body>
+</html>
