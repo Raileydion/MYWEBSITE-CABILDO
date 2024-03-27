@@ -563,7 +563,7 @@
     font-size: 20px;
 }
 
-img {
+img:hover {
     padding: 20px;
     border: 1px solid black;
     border-radius: 10px;
