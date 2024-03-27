@@ -17,8 +17,18 @@ h1 {
 }
 
 .header {
-    text-align: center;
+    text-align: left;
     margin: 50px 50px 50px 50px;
+}
+
+img {
+    vertical-align: middle;
+    float: right;
+    width: 120px;
+    height: auto;
+    border: 1px solid gray;
+    position: relative;
+    top: -20px;
 }
 
 .buttons-container {
