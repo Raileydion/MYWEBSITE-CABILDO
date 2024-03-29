@@ -230,16 +230,16 @@
 
     .button1 {
         font-family: garet;
-        font-size: 13px;
+        font-size: 15px;
         text-align: center;
-        padding: 5px;
-        color: black;
         text-decoration: none;
+        color: black;
+        margin-bottom: 20px;
     }
 
     #button1:hover {
         font-family: garet;
-        font-size: 16px;
+        font-size: 20px;
         padding: 5px;
         border: 1px solid black;
         border-radius: 5px;
@@ -249,16 +249,16 @@
 
     .button2 {
         font-family: garet;
-        font-size: 13px;
+        font-size: 15px;
         text-align: center;
-        padding: 5px;
-        color: black;
         text-decoration: none;
+        color: black;
+        margin-bottom: 20px;
     }
 
     #button2:hover {
         font-family: garet;
-        font-size: 16px;
+        font-size: 20px;
         padding: 5px;
         border: 1px solid black;
         border-radius: 5px;
@@ -269,19 +269,42 @@
     
     .button3 {
         font-family: garet;
-        font-size: 13px;
+        font-size: 15px;
         text-align: center;
-        padding: 5px;
-        color: black;
         text-decoration: none;
+        color: black;
+        margin-bottom: 20px;
     }
 
     #button3:hover {
         font-family: garet;
-        font-size: 16px;
+        font-size: 20px;
         padding: 5px;
         border: 1px solid black;
         border-radius: 5px;
         color: black;
         text-decoration: none;
+    }
+
+    img {
+        width: 350px;
+        height: auto;
+        border: 1px solid black;
+        border-radius: 20px;
+        padding: 20px;
+        box-shadow: 5px 10px 10px gray;
+        opacity: 0.75; 
+    }
+
+    img:hover {
+        width: 400px;
+        height: auto;
+        opacity: 1;
+    }
+
+
+    #img-container {
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
     }
