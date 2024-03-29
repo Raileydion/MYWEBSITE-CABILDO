@@ -309,3 +309,7 @@ figcaption {
     color: black;
     text-decoration: none;
 }
+
+#next-button:hover {
+    font-size: 16px;
+}
