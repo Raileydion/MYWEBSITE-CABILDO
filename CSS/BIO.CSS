@@ -298,6 +298,7 @@
     #home2:hover {
         font-family: garet;
         font-size: 20px;
+        margin-left: 20px;
         padding: 5px;
         border: 1px solid black;
         border-radius: 5px;
