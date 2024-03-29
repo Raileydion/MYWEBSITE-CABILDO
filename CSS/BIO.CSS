@@ -287,15 +287,22 @@
     }
 
     #home2 {
-        font-size: 30px;
+        font-family: garet;
+        font-size: 15px;
+        text-align: center;
         text-decoration: none;
         color: black;
-        margin-left: 50px;
+        margin-bottom: 20px;
     }
     
     #home2:hover {
-        border-bottom: 1px solid black;
-        font-size: 50px;
+        font-family: garet;
+        font-size: 20px;
+        padding: 5px;
+        border: 1px solid black;
+        border-radius: 5px;
+        color: black;
+        text-decoration: none;
     }
 
     img {
