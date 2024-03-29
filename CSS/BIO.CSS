@@ -286,6 +286,18 @@
         text-decoration: none;
     }
 
+    #home2 {
+        font-size: 30px;
+        text-decoration: none;
+        color: black;
+        margin-left: 50px;
+    }
+    
+    #home2:hover {
+        border-bottom: 1px solid black;
+        font-size: 50px;
+    }
+
     img {
         width: 350px;
         height: auto;
